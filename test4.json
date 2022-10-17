@@ -1,0 +1,4 @@
+{"Dealer":{"Init":[["spades","2"],["spades","4"]], "CMD":[["clubs","K"],["diamonds","8"]]},
+"Player":{"Init":[["spades","J"],["diamonds","5"]], "CMD":[["H","hearts","2"],["H","hearts","3"],["S"]]}
+    ,"result":[1,20,24],
+    "comments":"Case: Player hits and stands at value< 21 when dealer busts in dealer's turn"}

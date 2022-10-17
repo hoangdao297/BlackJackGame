@@ -1,0 +1,4 @@
+{"Dealer":{"Init":[["spades","2"],["spades","5"]], "CMD":[]},
+"Player":{"Init":[["spades","J"],["diamonds","5"]], "CMD":[["H","hearts","Q"]]}
+    ,"result":[0,25,7],
+"comments":"Case: Player hits unitl busted"}

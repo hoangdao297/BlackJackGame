@@ -1,0 +1,4 @@
+{"Dealer":{"Init":[["spades","2"],["spades","4"]], "CMD":[["clubs","K"],["diamonds","A"]]},
+"Player":{"Init":[["spades","A"],["diamonds","5"]], "CMD":[["H","hearts","A"],["S"]]}
+    ,"result":[2,17,17],
+    "comments":"Case: Player hits and stands at value (2 Aces) equals to dealer's turn value (1 Ace) (Tie!)"}

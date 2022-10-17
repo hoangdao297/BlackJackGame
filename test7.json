@@ -1,0 +1,4 @@
+{"Dealer":{"Init":[["spades","2"],["spades","4"]], "CMD":[]},
+"Player":{"Init":[["spades","A"],["diamonds","5"]], "CMD":[["H","hearts","A"],["H","hearts","9"],["H","hearts","Q"]]}
+    ,"result":[0,26,6],
+    "comments":"Case: Player hits unitl busted but in this case player hits more than one Ace"}

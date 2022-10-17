@@ -1,0 +1,4 @@
+{"Dealer":{"Init":[["spades","2"],["spades","5"]], "CMD":[]},
+"Player":{"Init":[["spades","K"],["spades","A"]], "CMD":[]}
+,"result":[1,21,7],
+"comments":"Case: When player has blackjack in the initial time"}
