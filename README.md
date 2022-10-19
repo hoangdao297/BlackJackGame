@@ -21,7 +21,7 @@ To run, navigate to the folder location on terminal and type: python test_game.p
 
 5. I encountered the tradeoff between the simplicity in codes and the well structure of the codes. At the first time, I did not write Card class and try to implement it with the hash table and and decrement the amount of each card by 1 whenever it called. But I realized that will makes the codes unstructured and hard to read as well as make it easier to raise the error. So I wrote all of my ideas in the paper and try to design it in the structured way before I coded it out.
 
-6. I would test more !. For 2 hours, I was only able to write the codes as well as tested it with the comparison of the winner. If I was given more time, I would test on the printing output to check each line of ouput is exact to the desired output or not.  And I would test on the final points of player and dealer. In addition, I would try to reduce the overall time complexity of this program for better performance.
+6. I would test more !. For 2 hours, I was only able to write the codes as well as tested it with the comparison of the winner. If I was given more time, I would test on the printing output to check each line of ouput is exact to the desired output or not.  And I would test on the final points of player and dealer. In addition, I would try to reduce the overall time complexity of this program for better performance. Black Jack is an interesting card game, I would try to make it available for multiplayer if I was given more time.
 
 7. I generalized all possible scenarios into 11 test cases
 All of my test cases were written in .json format {"Dealer":{"Init":[[suit_of_card,face_of_card],[suit_of_card,face_of_card]], "CMD":[[suit_of_card,face_of_card]]},
