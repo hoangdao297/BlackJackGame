@@ -30,17 +30,17 @@ All of my test cases were written in .json format {"Dealer":{"Init":[[suit_of_ca
 "comments":"for comment"} 
 For winner 1 denotes for player, 0 for dealer and 2 for tie. 
 
-Case 1: When player has blackjack in the initial time
-Case 2: Player hits unitl busted
-Case 3: Player hits and stands at value > when dealer reach >=17
-Case 4: Player hits and stands at value< 21 when dealer busts in dealer's turn
-Case 5: Player hits and stands at value < dealer's turn value
-Case 6: Player hits and stands at value= dealer's turn (Tie)
-Case 7: Player hits unitl busted but in this case player hits more than one Ace
-Case 8: Player hits and stands at value (contains 2 Aces) > Dealer's turn value (1 Ace)
-Case 9: Player hits and stands at value (2 Aces) equals to dealer's turn value (1 Ace) (Tie!)
-Case 10: Player hits and stands at value (2 Aces) < dealer's turn value (1 Ace)
-Case 11: Player hits and stands at value (3 Aces) > dealer's turn value (1 Ace)
+Case 1: When player has blackjack in the initial time.
+Case 2: Player hits unitl busted.
+Case 3: Player hits and stands at value > when dealer reach >=17.
+Case 4: Player hits and stands at value< 21 when dealer busts in dealer's turn.
+Case 5: Player hits and stands at value < dealer's turn value.
+Case 6: Player hits and stands at value= dealer's turn (Tie).
+Case 7: Player hits unitl busted but in this case player hits more than one Ace.
+Case 8: Player hits and stands at value (contains 2 Aces) > Dealer's turn value (1 Ace).
+Case 9: Player hits and stands at value (2 Aces) equals to dealer's turn value (1 Ace) (Tie!).
+Case 10: Player hits and stands at value (2 Aces) < dealer's turn value (1 Ace).
+Case 11: Player hits and stands at value (3 Aces) > dealer's turn value (1 Ace).
 
-8. All test cases are in .json format
+8. All test cases are in .json format.
 To run all the test cases, navigate to the folder location and type: python test_game.py
