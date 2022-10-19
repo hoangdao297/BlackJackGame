@@ -1,15 +1,15 @@
 Hoang Dao's Submission/ _Email: minhhoanghectorjack@gmail.com_
 
 1. Python 3 should be installed on the computer if not you can download here: https://www.python.org/downloads/
-The folder contains:
--3 python (.py) files: blackjack_random.py , blackjack_input.py , test_game.py (automated testing)
--11 test files with (.json) format
+The folder contains:<br />
+-3 python (.py) files: blackjack_random.py , blackjack_input.py , test_game.py (automated testing)<br />
+-11 test files with (.json) format<br />
 
-the blackjack_random.py file is the file with computer randomly generate cards for player and dealer
+the blackjack_random.py file is the file with computer randomly generate cards for player and dealer<br/>
 To run, navigate to the folder location on terminal and type: python blackjack_random.py
 
-the blackjack_input.py file is the file with the desired input to simulate player input, cards as well as dealer cards, input
-this file is testable and can be tested through test_game.py file
+the blackjack_input.py file is the file with the desired input to simulate player input, cards as well as dealer cards, input<br />
+This file is testable and can be tested through test_game.py file<br />
 To run, navigate to the folder location on terminal and type: python test_game.py
 
 2. The lack of clarity that I found in the challenge is the input of program. I was confused between writing random input from computer and the designed input. So I chose to write as general as I can to write both version with the same codes and little differences in 2 versions. For the random version, I use random algorithm from python library for generating cards and manual user input for program. For input version, I design the format of test case and test it with same code.
@@ -29,18 +29,18 @@ All of my test cases were written in .json format {"Dealer":{"Init":[[suit_of_ca
 ,"result":[winner,player_points,dealer_points],
 "comments":"for comment"} 
 For winner 1 denotes for player, 0 for dealer and 2 for tie. 
-
-Case 1: When player has blackjack in the initial time.
-Case 2: Player hits unitl busted.
-Case 3: Player hits and stands at value > when dealer reach >=17.
-Case 4: Player hits and stands at value< 21 when dealer busts in dealer's turn.
-Case 5: Player hits and stands at value < dealer's turn value.
-Case 6: Player hits and stands at value= dealer's turn (Tie).
-Case 7: Player hits unitl busted but in this case player hits more than one Ace.
-Case 8: Player hits and stands at value (contains 2 Aces) > Dealer's turn value (1 Ace).
-Case 9: Player hits and stands at value (2 Aces) equals to dealer's turn value (1 Ace) (Tie!).
-Case 10: Player hits and stands at value (2 Aces) < dealer's turn value (1 Ace).
+<br />
+Case 1: When player has blackjack in the initial time.<br />
+Case 2: Player hits unitl busted.<br />
+Case 3: Player hits and stands at value > when dealer reach >=17.<br />
+Case 4: Player hits and stands at value< 21 when dealer busts in dealer's turn.<br />
+Case 5: Player hits and stands at value < dealer's turn value.<br />
+Case 6: Player hits and stands at value= dealer's turn (Tie).<br />
+Case 7: Player hits unitl busted but in this case player hits more than one Ace.<br />
+Case 8: Player hits and stands at value (contains 2 Aces) > Dealer's turn value (1 Ace).<br />
+Case 9: Player hits and stands at value (2 Aces) equals to dealer's turn value (1 Ace) (Tie!).<br />
+Case 10: Player hits and stands at value (2 Aces) < dealer's turn value (1 Ace).<br />
 Case 11: Player hits and stands at value (3 Aces) > dealer's turn value (1 Ace).
-
-8. All test cases are in .json format.
+<br />
+8. All test cases are in .json format.<br />
 To run all the test cases, navigate to the folder location and type: python test_game.py
